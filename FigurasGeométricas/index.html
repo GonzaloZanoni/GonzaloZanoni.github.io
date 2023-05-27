@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras Geométricas</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="actividad">
+      <div class="logo">
+        <img src="./recursos/logo1.png" alt="" />
+      </div>
+      <h1>ESCUELA Cap. JOSÉ L. ARDILES</h1>
+      <div class="contener">
+        <!-- <img src="./recursos/3.png" alt="" /> -->
+        <p>
+          Las figuras geométricas forman parte esencial del aprendizaje. Están
+          en todas partes, por lo que es conveniente saber identificar las
+          mismas y llamarlas por sus nombres.
+        </p>
+      </div>
+      <div class="instruccion">
+        <h2>ACTIVIDAD:</h2>
+        <p>
+          Arrastra cada figura y su característica al lugar que corresponde.
+        </p>
+      </div>
+    </div>
+    <div class="juego">
+      <div class="intermedio">
+        <div class="refresh">
+          <button onclick="refrescarPagina();">MEZCLAR</button>
+        </div>
+        <div class="fig-car1">FIGURAS</div>
+        <div class="fig-car2">CARACTERÍSTICAS</div>
+      </div>
+      <div class="geometria">
+        <div class="figuras">
+          <h1>CUADRADO</h1>
+          <h1>CÍRCULO</h1>
+          <h1>TRIÁNGULO</h1>
+          <h1>RECTÁNGULO</h1>
+        </div>
+        <div class="container">
+          <div id="puzzle"></div>
+          <div id="piezas"></div>
+        </div>
+        <h1 id="mensaje">¡Ganaste!</h1>
+      </div>
+      <div class="intermedio">
+        <div class="refresh">
+          <button onclick="refrescarPagina();">MEZCLAR</button>
+        </div>
+        <div class="fig-car1">FIGURAS</div>
+        <div class="fig-car2">CARACTERÍSTICAS</div>
+      </div>
+      <div class="geometria2">
+        <div class="figuras">
+          <h1>ROMBO</h1>
+          <h1>TRAPECIO</h1>
+          <h1>PENTÁGONO</h1>
+          <h1>HEXÁGONO</h1>
+        </div>
+        <div class="container">
+          <div id="puzzle2"></div>
+          <div id="piezas2"></div>
+        </div>
+      </div>
+      <footer>
+        <p>
+          Desarrollado por
+          <span class="author">Gonzalo Zanoni - Copyright </span> &copy; 2023
+        </p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="./recursos/alertLogrado.js"></script> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
